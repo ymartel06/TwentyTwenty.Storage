@@ -5,8 +5,7 @@
     <AssemblyTitle>2020 Storage</AssemblyTitle>
     <VersionPrefix>$(SemVer)</VersionPrefix>
     <Authors>2020IP</Authors>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">$(TargetFrameworks);net45</TargetFrameworks>
+    <TargetFrameworks>net80</TargetFrameworks>
     <AssemblyName>TwentyTwenty.Storage</AssemblyName>
     <PackageId>TwentyTwenty.Storage</PackageId>
     <PackageTags>storage blob file scalable cloud azure amazon store windows aws s3 local filesystem</PackageTags>
